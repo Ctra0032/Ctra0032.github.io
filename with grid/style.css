@@ -1,0 +1,98 @@
+body {
+    background-color: red;
+}
+
+div.poster {
+    background-color: white;
+    width: 75%;
+}
+
+div.container{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+div.col{
+ outline: 1px solid cyan;
+ width: 50%;
+
+}
+
+/* 4 col grid */
+
+div.logo {
+    font-size: 50px;
+}
+
+div.w1-4{
+    width: 25%;
+}
+
+div.w2-4{
+    width: 50%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+div.w4-4{
+    width: 100%;
+}
+
+div.text {
+    font-size:120px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    transition:0.5s;
+
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 40px;
+
+}
+
+div.text.two {
+    font-size:50px;
+
+}
+
+div.text.three {
+    font-size: 160px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color: aquamarine;
+}
+
+div.text.b {
+    color: rgb(193, 135, 216);
+}
+
+div.text.c {
+    color: rgb(235, 152, 93);
+}
+
+div.text.x {
+    text-align: center;
+}
+
+div.text.y {
+    text-align: left;
+}
+
+div.text.z {
+    text-align: right;
+}
+
+div.small {
+font-size: 30px;
+color: aliceblue;
+text-align: center;
+}
+
