@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+}
+
+div.poster {
+    background-image: url('rainbowg.jpg');
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+div.text {
+    font-size:120px;
+    font-family:Odemo;
+    text-align:left;
+    color: black;
+    transition:0.5s;
+    text-align: center;
+
+}
+
+
+
+@font-face {
+    font-family: Odemo ;
+    src: url(Orangina-Demo.ttf);
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.w1-2{
+    width: 50%;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 40px;
+
+}
+
+div.text.two {
+    font-size:80px;
+
+}
+
+div.text.three {
+    font-size: 120px;
+}
+
+/* rule 2 */
+
+div.text.a {
+   text-align: center;
+}
+
+div.text.b {
+   text-align: right;
+}
+
+div.text.c {
+   text-align: left;
+}
+
+/* rule 3 */
+
+div.text.x {
+    background-color: black;
+}
+
+div.text.y{
+    background-image: url('rainbowg.jpg');
+}
+
+div.text.z {
+    text-transform: capitalize;
+}
+
+div.small {
+font-size: 20px;
+color: black;
+text-align: center;
+background-image: url('rainbowg.jpg');
+}
+
+

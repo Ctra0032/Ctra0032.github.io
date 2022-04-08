@@ -3,19 +3,10 @@ body {
 }
 
 div.poster {
-    background-color:white;
+    background-color: #b1ce79;
     width: 90%;
 }
 
-div.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-div.col{
-    fill: #587fba;
-    width: 50%;
-}
 div.text {
     font-size:120px;
     font-family: gtmaru;
@@ -29,57 +20,50 @@ div.text {
     src: url(fonts/GT-Maru-Mega-Midi-Trial.otf);
 }
 
-.w1-2{
-    width: 50%;
-}
-
-.w1-3{
-    width: 50%;
+div.arial{
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 /* rule 1 */
 
 div.text.one {
-    color: #ecf31a;
-
-}
-
-div.text.two {
     color: #587fba;
 
 }
 
+div.text.two {
+    color: #b1ce79;
+
+}
+
 div.text.three {
-    color: #f03b97;
+    color: #e2b2c5;
 }
 
 /* rule 2 */
 
 div.text.a {
-    font-weight: 100;
-}
-
-div.text.b {
-    font-weight: 50;
-}
-
-div.text.c {
-    font-weight: 150;
-}
-
-div.text.x {
-    font-size: 70px;
     background-color: #587fba;
 }
 
+div.text.b {
+    background-color: #b1ce79;
+}
+
+div.text.c {
+    background-color: #e2b2c5;
+}
+
+div.text.x {
+    font-size: 80px;
+}
+
 div.text.y {
-    font-size: 130px;
-    background-color: #ecf31a;
+    font-size: 150px;
 }
 
 div.text.z {
     font-size: 30px;
-    background-color: #f03b97;
 }
 
 div.small {

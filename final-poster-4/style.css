@@ -10,11 +10,17 @@ div.poster {
 div.text {
     color: black;
     font-size:120px;
-    font-family: serif;
+    font-family: NorthC;
     text-align:center;
     transition:0.5s;
 
 }
+
+@font-face {
+    font-family: 'NorthC';
+    src: url(NorthCarossela.otf);
+}
+
 
 div.sml {
     line-height: 90px;
