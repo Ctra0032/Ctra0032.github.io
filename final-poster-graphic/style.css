@@ -1,75 +1,110 @@
-body {
+body { 
     background-color: white;
 }
 
 div.poster {
-    background-color: #b1ce79;
-    width: 90%;
+    width: 100%;
+    background-color: white;
 }
 
 div.text {
     font-size:120px;
-    font-family: gtmaru;
-    text-align:center;
+    font-family: Appears;
+    color: black;
     transition:0.5s;
 
 }
 
-@font-face {
-    font-family: 'gtmaru';
-    src: url(fonts/GT-Maru-Mega-Midi-Trial.otf);
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-div.arial{
-    font-family: Arial, Helvetica, sans-serif !important;
+.w1-2{
+    width: 100%;
+}
+
+.img1{
+    padding-left: 1200px;
+    width: 50px;
+    height: 50px;
+}
+
+.img2{
+    padding-left: 25px;
+    padding-top: 100px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.img3{
+    padding-left: 300px;
+    width: 100px;
+    height: 100px;
+}
+
+
+@font-face {
+    font-family: 'Appears';
+    src: url(Appears.otf);
+}
+
+.center{
+    text-align: center;
 }
 
 /* rule 1 */
 
 div.text.one {
-    color: #587fba;
-
+    font-size: 150px;
 }
 
 div.text.two {
-    color: #b1ce79;
-
+    font-size: 250px;
 }
 
 div.text.three {
-    color: #e2b2c5;
+    font-size: 250px;
+
 }
 
 /* rule 2 */
 
 div.text.a {
-    background-color: #587fba;
+
 }
 
 div.text.b {
-    background-color: #b1ce79;
+
 }
 
 div.text.c {
-    background-color: #e2b2c5;
+
 }
 
 div.text.x {
-    font-size: 80px;
 }
 
 div.text.y {
-    font-size: 150px;
+
 }
 
 div.text.z {
-    font-size: 30px;
+    
 }
 
-div.small {
-font-size: 20px;
+div.right {
+font-size: 15px;
 font-family: Arial, Helvetica, sans-serif;
-color: #587fba;
-text-align: center;
+color: black;
+text-align: right;
 }
+
+div.left {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    }
 
