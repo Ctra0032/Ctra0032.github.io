@@ -1,0 +1,90 @@
+body {
+    background-color: #f4b5d6;
+}
+
+div.poster {
+    background-color: #f4b5d6;
+    width: 90%;
+}
+
+div.text {
+    color: black;
+    font-size:120px;
+    font-family: NorthC;
+    text-align:center;
+    transition:0.5s;
+
+}
+
+@font-face {
+    font-family: 'NorthC';
+    src: url(NorthCarossela.otf);
+}
+
+
+div.sml {
+    line-height: 90px;
+}
+
+div.med{
+    line-height: 100px;
+}
+
+div.lrg{
+    line-height: 120px;
+}
+
+
+/* rule 1 */
+
+
+div.text.one {
+   -webkit-transform: rotate(-10deg);
+
+}
+
+div.text.two {
+    -webkit-transform: rotate(10deg);
+
+}
+
+div.text.three {
+    -webkit-transform: rotate(0deg);
+}
+
+
+/* rule 2 */
+
+div.text.a {
+    font-weight: normal;
+}
+
+div.text.b {
+    font-weight: bold;
+
+}
+
+div.text.c {
+    font-weight: bolder;
+}
+
+div.text.x {
+    font-size: 60px;
+}
+
+div.text.y {
+    font-size: 100px;
+}
+
+div.text.z {
+    font-size: 20px;
+}
+
+div.small {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+text-align: center;
+line-height: 100px;
+}
+

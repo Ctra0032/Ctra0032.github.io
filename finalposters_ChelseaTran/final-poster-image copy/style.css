@@ -1,0 +1,125 @@
+body {
+    background-color: black;
+}
+
+div.poster {
+    background-image: url('rainbowg.jpg');
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+div.text {
+    font-size:120px;
+    font-family:Glassure;
+    text-align:left;
+    color: black;
+    text-align: center;
+    transition:0.5s;
+    
+
+}
+
+div.centre {
+    text-align: center;
+}
+
+div.right{
+    text-align: right;
+}
+
+div.left{
+    text-align: left;
+}
+
+
+@font-face {
+    font-family: Glassure ;
+    src: url(Glassure.otf);
+}
+
+div.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+div.col{
+    width: 50%;
+}
+
+/* 4 col grid */
+
+div.logo {
+    font-size: 50px;
+}
+
+div.w1-4{
+    width: 25%;
+}
+
+div.w2-4{
+    width: 50%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+div.w4-4{
+    width: 100%;
+}
+
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 60px;
+
+}
+
+div.text.two {
+    font-size: 80px;
+
+}
+
+div.text.three {
+    font-size: 110px;
+}
+
+/* rule 2 */
+
+div.text.a {  
+ background-color: white;
+ opacity: 30%;
+
+}
+
+div.text.b {
+    background-color: white;
+    opacity: 50%;
+    
+}
+
+div.text.c {
+    direction: rtl;
+    unicode-bidi: bidi-override; 
+}
+
+
+div.small {
+    background-image: url('rainbowg.jpg');
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-image: url('streaming.png') ;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+}
+
+div.header {
+    color: white;    
+    font-family: Vintage;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+div.header a {
+    color:white;
+}
+
+div.header a:hover {
+    color: magenta;
+}
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+}
+
+div.nav {
+    width: 50%;
+}
+
+div.masthead {
+    color: cyan;
+    position: relative;
+    padding-top: 70px;
+    text-shadow: 10px;
+    font-size: 40vw;
+
+}
+
+div.about {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+div.footnotes {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+}
+
+div.note {
+    width: 33.333%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+div.title{
+    font-size: 100px;
+    font-family: Vintage;
+    color: magenta;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+div.keywords {
+    font-size: 20px;
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+div.item {
+    width: 33.333%;
+    text-align: center;
+    color: cyan;
+    padding: 10px;
+}
+
+a.button{
+    background-color: cyan;
+    font-size: 20px;
+    color: magenta;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+
+div.item.pushright {
+    margin-right: 33.333%;
+}
+
+div.item.larger {
+    text-align: center;
+    width: 50%;
+}
+
+
+div.number {
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'Vintage';
+    src: url(VintageGlitch.otf);
+}
+
+div.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.mainstream {
+    font-size: 20px;
+    font-style: bold;
+    width: 66.666%;
+}
+
+div.chat {
+    width: 33.333%;
+}
+
+div.controls {
+    width: 100%;
+}
+
+div.hearts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    padding-right: 50px;
+    width: 18%;
+}
+
+div.streaming {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.fours {
+    position: absolute;
+    
+}
