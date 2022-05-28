@@ -18,7 +18,7 @@ img {
 
 div.header {
     color: white;    
-    font-family: Vintage;
+    font-family: akira;
     font-size: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@ div.masthead {
 
 div.about {
     padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -78,11 +78,10 @@ div.note {
 
 div.title{
     font-size: 100px;
-    font-family: Vintage;
+    font-family: akira;
     color: magenta;
     text-align: center;
     margin-top: 100px;
-    font-weight: bold;
 }
 
 div.keywords {
@@ -128,8 +127,8 @@ div.number {
     font-size: 25px;
 }
 @font-face {
-    font-family: 'Vintage';
-    src: url(VintageGlitch.otf);
+    font-family: 'akira';
+    src: url(akira.otf);
 }
 
 div.hero {
@@ -138,14 +137,40 @@ div.hero {
 }
 
 div.mainstream {
+    width: 70%;
     font-size: 20px;
     font-style: bold;
-    width: 66.666%;
+
 }
 
 div.chat {
-    width: 33.333%;
+    width: 25%;
+    height: 300px;
+    overflow: scroll;
+    background-color: black;
+    border: 4px solid magenta;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
 }
+
+div.chatbox {
+    font-family: arial;
+    color: magenta;
+    border: 4px solid magenta;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-flex;
+    font-size: 16px;
+}
+
+div.chatbox.kda {
+    font-size: 16px;
+    color: cyan;
+    border: 2px solid cyan;
+}
+
 
 div.controls {
     width: 100%;
@@ -160,12 +185,24 @@ div.hearts {
 }
 
 div.streaming {
+    padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    
+}
+
+div.menu {
+    width: 25%;
+    font-size: 30px;
+    font-family: akira;
+    padding-left: 600px;
 }
 
 div.fours {
+    padding-top: 50px;
+    padding-left: 40px;
     position: absolute;
+    font-family: akira;
+    font-size: 250px;
+    width: 75%;
     
 }
