@@ -1,0 +1,18 @@
+
+header
+    logo
+    nav
+title
+    featured image
+    caption
+about
+footnotes
+    note title
+    note description
+    note outgoing link
+container
+    item
+        image
+        paragraph
+footer
+

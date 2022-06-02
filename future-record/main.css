@@ -145,7 +145,7 @@ div.mainstream {
 
 div.chat {
     width: 25%;
-    height: 300px;
+    height: 550px;
     overflow: scroll;
     background-color: black;
     border: 4px solid magenta;
@@ -184,7 +184,7 @@ div.hearts {
     width: 18%;
 }
 
-div.streaming {
+div.heroimage {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -205,4 +205,15 @@ div.fours {
     font-size: 250px;
     width: 75%;
     
+}
+
+div.herosidebar {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20pc;
+}
+
+div.masthead {
+    display: flex;
+    flex-wrap: wrap;
 }
