@@ -38,6 +38,10 @@ div.header a:hover {
     color: magenta;
 }
 
+div.herosidebar a:hover {
+    color: magenta;
+}
+
 div.logo {
     padding: 10px;
     width: 50%;
@@ -49,15 +53,15 @@ div.nav {
 
 div.masthead {
     color: cyan;
-    position: relative;
     padding-top: 70px;
-    text-shadow: 10px;
     font-size: 40vw;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 div.about {
-    padding: 20px;
+    padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -188,32 +192,50 @@ div.heroimage {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    width: 75%;
 }
 
-div.menu {
+div.herosidebarmenu {
     width: 25%;
-    font-size: 30px;
+    font-size: 40px;
     font-family: akira;
-    padding-left: 600px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: cyan;
 }
 
 div.fours {
-    padding-top: 50px;
-    padding-left: 40px;
+    padding-top: 100px;
+    padding-left: 100px;
     position: absolute;
     font-family: akira;
-    font-size: 250px;
-    width: 75%;
+    font-size: 400px;
     
 }
 
 div.herosidebar {
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-    padding-top: 20pc;
+    width: 25%;
+
 }
 
-div.masthead {
-    display: flex;
-    flex-wrap: wrap;
+div.videodescription {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+div.comments {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+div.setlist {
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 15px;
+
 }
